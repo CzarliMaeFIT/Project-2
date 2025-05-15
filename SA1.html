@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+<body>
+    <h2 align="center">Module 2:HTML</h2>
+    <h2 align="center">Technical Summative Assessment</h2>
+
+    <style>
+        table{
+            margin: 10;
+            width: auto;
+            font-family: Calibri;
+        }
+
+        table,
+        th,
+        td {
+            border-collapse: collapse;
+        }
+        
+        form{
+            font-family: Calibri;
+            
+        }
+    </style>
+
+    <table border="1" cellpadding="5" align="center">
+
+        <font face="arial"> 
+        <tr align="center">
+            <th bgcolor="lightblue" colspan="6"><b>INVENTORY SYSTEMS</b></th>
+        <tr bgcolor="lightgray" align="center">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+            <th>Date</th>
+            <th>Image</th>
+        <tr>
+            <td align="center">10001</td>
+            <td>Boy Bawang Adobo (pc)</td>
+            <td align="center">1000</td>
+            <th align="center" bgcolor="gold" rowspan="8">KSK</th>
+            <td align="center" rowspan="2">5/14/2029</td>
+            <td rowspan="8"><img src="/images/boybawang.png" width="150"></td>
+
+        <tr>
+            <td align="center">10002</td>
+            <td>Boy Bawang Adobo (pack)</td>
+            <td align="center">200</td>
+
+        <tr bgcolor="lightgray"">
+
+            <td align="center">10003</td>
+            <td>Boy Bawang Garlic (pc)</td>
+            <td align="center">3000</td>
+            <td align="center" rowspan="2">5/15/2029</td>
+
+        <tr bgcolor="lightgray">
+            <td align="center">10004</td>
+            <td>Boy Bawang Garlic (pack)</td>
+            <td align="center"><font color="red">150</font></td>
+        <tr>
+            <td align="center">10005</td>
+            <td>Boy Bawang Spicy (pc)</td>
+            <td align="center">4000</td>
+            <td align="center" rowspan="2">5/16/2029</td>
+        <tr>
+            <td align="center">10006</td>
+            <td>Boy Bawang Spicy (pack)</td>
+            <td align="center">240</td>
+        <tr bgcolor="lightgray">
+            <td align="center">10007</td>
+            <td>Boy Bawang BBQ (pc)</td>
+            <td align="center">3000</td>
+            <td align="center" rowspan="2">5/17/2029</td>
+        <tr bgcolor="lightgray">
+            <td align="center">10006</td>
+            <td>Boy Bawang BBQ (pack)</td>
+            <td align="center">210</td>
+        
+        </font>
+    </table>
+    <br><br>
+
+    <h2>STUDENT PROFILE FORM</h2>
+
+    <form>
+        Your Name* <br>
+        <input type="text" name="Name" >
+        <br>
+        Email* <br>
+        <input type="text" name="Email" >
+        <br>
+        Contact Number* <br>
+        <input type="text" name="Contact" >
+        <br>
+        Message <br>
+        <textarea></textarea>
+        <br>
+        required field*
+        <br>
+        <input type="Submit" value="Send">
+    </form>
+    
+</body>
+</html>
